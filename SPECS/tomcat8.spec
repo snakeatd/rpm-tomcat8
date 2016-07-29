@@ -1,7 +1,7 @@
 %define __jar_repack %{nil}
-%define tomcat_home /opt/tomcat8
-%define tomcat_group tomcat
-%define tomcat_user tomcat
+%define tomcat_home /usr/share/tomcat8
+%define tomcat_group tomcat8
+%define tomcat_user tomcat8
 
 Summary:    Apache Servlet/JSP Engine, RI for Servlet 2.4/JSP 2.0 API
 Name:       tomcat8
